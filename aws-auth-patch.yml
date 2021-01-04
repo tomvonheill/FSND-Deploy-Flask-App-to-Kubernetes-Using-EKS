@@ -6,7 +6,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::853294253875:role/eksctl-simple-jwt-api-nodegroup-n-NodeInstanceRole-101LZK55CZZ76
       username: system:node:{{EC2PrivateDNSName}}
-    - groups
+    - groups:
       - system:masters
       rolearn: arn:aws:iam::853294253875:role/UdacityFlaskDeployCBKubectlRole
       username: build
